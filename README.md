@@ -15,6 +15,7 @@ It's very simple to get started and try Utterson:
 ```shell
 git clone https://github.com/gabriel-john/utterson.git
 cd utterson
+sudo apt install ruby-bundler
 bundle install --path vendor/bundle
 bundle exec rackup
 ```
